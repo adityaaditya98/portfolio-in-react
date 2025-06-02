@@ -6,6 +6,7 @@ import Nav from './Nav'
 import ProfileHeader from './profileHeader'
 import Technologies from './Technologies'
 import Project from './project'
+import Experience from './Experience'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <ProfileHeader />
       <Technologies />
       <Project />
+      <Experience />
     </div>
     </>
   )
