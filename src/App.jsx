@@ -5,6 +5,7 @@ import './App.css'
 import Nav from './Nav'
 import ProfileHeader from './profileHeader'
 import Technologies from './Technologies'
+import Project from './project'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <ProfileHeader />
       <Technologies />
+      <Project />
     </div>
     </>
   )
